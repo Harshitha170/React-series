@@ -1,11 +1,11 @@
 
 import Demo from "./demo"
 function App() {
-  
+  const username = "Harshitha"
 
   return (
     <>
-     <h1>React with Vite | HJ</h1>
+     <h1>React with Vite {username}</h1>
     <Demo/>
     </>
   )
